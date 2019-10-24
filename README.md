@@ -5,8 +5,10 @@ Step by Step Setup Cosmos and Nginx using AWS
 ![Nginx Web Server](https://github.com/fisher-woon/Cosmos/blob/master/AWS_Nginx_server.png)
 ![Cosmos Application Server](https://github.com/fisher-woon/Cosmos/blob/master/AWS_Cosmos_server.PNG)
 
-After created the servers, configure inbound rules to allow SSH and open Firewall
+After created the servers, configure inbound rules to allow SSH and open Firewall \
+Nginx Server Inbound rules
 ![Nginx Inbound rules](https://github.com/fisher-woon/Cosmos/blob/master/AWS_Nginx_inbound_rules.PNG)
+Cosmos Server Inbound rules
 ![Cosmos Inbound rules](https://github.com/fisher-woon/Cosmos/blob/master/AWS_Cosmos_inbound_rules.PNG)
 
 In Elastic IPs navigation, allocate 2 new address and assign to Server Nginx and Cosmos
