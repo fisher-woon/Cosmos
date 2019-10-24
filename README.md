@@ -43,7 +43,8 @@ $ gaiacli rest-server --chain-id=test \
 	--trust-node=false
   
  # 3) Configure Nginx Web Server
- install Nginx Web Server \
+ SSH to server via Putty with your key pair. \
+ Install Nginx Web Server \
  ![install nginx](https://github.com/fisher-woon/Cosmos/blob/master/install_nginx.PNG)
  
  Setup proxy redirect API calling connection to Cosmos server. \
